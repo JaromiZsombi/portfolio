@@ -1,0 +1,71 @@
+[
+	{
+		"id": "1",
+		"title": "Profiles",
+		"photo_url": "https://res.cloudinary.com/dx9pv95sq/image/upload/v1740729203/84eff68a-ccb4-42c1-bd43-76eab5e0835c.png",
+		"repo-link": "https://github.com/JaromiZsombi/profiles",
+		"topics": [
+			"fetch API",
+			"Set adatszerkezet",
+			"Array.from()",
+			"radió gombok használata",
+			"checkboxok használata",
+			"select használata"
+		],
+		"site-link": "https://jaromizsombi.github.io/profiles/"
+	},
+	{
+		"id": "2",
+		"title": "Ingatlan",
+		"photo_url": "https://res.cloudinary.com/dgodcsh3p/image/upload/v1740729470/products_g6ans5.png",
+		"repo-link": "https://github.com/JaromiZsombi/Ingatlan",
+		"topics": [
+			"fetch API",
+			"checkboxok használata",
+			"Reszponzív design",
+			"Javascript függvények"
+		],
+		"site-link": "https://jaromizsombi.github.io/Ingatlan/"
+	},
+	{
+		"id": "3",
+		"title": "Virágbolt",
+		"photo_url": "https://res.cloudinary.com/dx9pv95sq/image/upload/v1740729148/0a08389b-9934-4ebe-b4af-9058f49e0eae.png",
+		"repo-link": "https://github.com/JaromiZsombi/viragboltApi",
+		"topics": [
+			"fetch API",
+			"Set adatszerkezet",
+			"Array.from()",
+			"radió gombok használata",
+			"checkboxok használata",
+			"select használata"
+		],
+		"site-link": "https://jaromizsombi.github.io/viragboltApi/"
+	},
+	{
+		"id": "4",
+		"title": "apiSearch",
+		"photo_url": "https://res.cloudinary.com/dx9pv95sq/image/upload/v1740729447/48de99e0-3e20-4812-b4dd-0d54baad1d01.png",
+		"repo-link": "https://github.com/JaromiZsombi/apiSearch",
+		"topics": [
+			"fetch API",
+			"checkboxok használata",
+			"Reszponzív design",
+			"Javascript függvények"
+		],
+		"site-link": "https://jaromizsombi.github.io/apiSearch/"
+	},
+	{
+		"id": "5",
+		"title": "Autókölcsönzés",
+		"photo_url": "https://res.cloudinary.com/dx9pv95sq/image/upload/v1740729547/726fc848-7ca9-4aa8-9427-516c372479ed.png",
+		"repo-link": "https://github.com/JaromiZsombi/autokolcsonzes",
+		"topics": [
+			"fetch API",
+			"checkboxok használata",
+			"Reszponzív design",
+			"Javascript függvények"
+		],
+		"site-link": "https://jaromizsombi.github.io/autokolcsonzes/"
+	}
+]
