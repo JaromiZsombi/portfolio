@@ -7,13 +7,16 @@ function renderWorks(data){
 	document.getElementById('work').innerHTML=''
 	data.forEach(obj=>{
 		document.getElementById('work').innerHTML+=`
-
+		
+		
 		<div class="card">
-  			<img class="work_images" src="${obj.photo_url}" alt="photo" style="width:50%">
-  			<div class="container">
-    			<h4><b>${obj.title}</b></h4>
-    			<p>${obj.topics}</p>
-  			</div>
+			<div class="kep_hely"><img class="work_images" src="${obj.photo_url}" alt="photo"></div>
+			<div class="container2">
+    				<h4><b>${obj.title}</b></h4>
+    				<p>${obj.topics}</p>
+  				</div>
+  			
+  			
 		</div>
 		`
 
