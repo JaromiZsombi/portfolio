@@ -5,6 +5,11 @@ getData(urlData, renderWorks)
 function renderWorks(data){
 	document.getElementById('work').innerHTML=''
 	data.forEach(obj=>{
+		let temakorok = "";
+		obj.topics.forEach(x => {
+			temakorok += `<li>${x}</li>`
+		})
+
 		document.getElementById('work').innerHTML+=`
 		
 		
@@ -13,7 +18,11 @@ function renderWorks(data){
 			<div class="container2">
     				<h4><span>${obj.title}</span></h4>
 					<p>Témakörök</p>
-    				<p>${obj.topics}</p>
+    				<ul id="workitems">
+					${temakorok}
+					</ul>
+					<a target="_blank" href="${obj.repo_link}"><p class="buttonok">Github link</p></a>
+					<a target="_blank" href="${obj.site_link}"><p class="buttonok">Weboldal link</p></a>
   				</div>
 			</div>
 		`
